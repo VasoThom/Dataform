@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>DataForm</title>
+  </head>
+  <body>
+    <header>Forms</header>
+    <div class="container">
+      <h1>Personal Data</h1>
+      <form action="">
+        <div class="label2">
+          <label>
+            First name:
+            <br />
+
+            <input type="text" name="name" />
+          </label>
+          <br />
+          <label>
+            Last name:
+            <br />
+            <input type="text" name="surname" />
+          </label>
+          <br />
+          <label>
+            Street:
+            <br />
+            <input type="text" name="street" />
+          </label>
+          <br />
+          <label>
+            Zipcode:
+            <br />
+            <input type="number" name="code" />
+          </label>
+          <br />
+          <label>
+            City:
+            <br />
+            <input type="text" name="city" />
+          </label>
+          <br />
+          <label>
+            Phone:
+            <br />
+            <input type="number" name="Nummer" />
+          </label>
+          <br />
+          <label>
+            Email:
+            <br />
+            <input type="email" name="email" />
+          </label>
+          <br />
+          <label>
+            Comments:
+            <br />
+            <textarea name="comments" cols="30" rows="10">
+Tell us more about important colors, etc.</textarea
+            >
+          </label>
+        </div>
+      </form>
+    </div>
+
+    <div class="container1">
+      <h2>Products</h2>
+      <br />
+      <form action="">
+        <br />
+        <strong>Web Design:</strong>
+        <br />
+        <br />
+        <div class="label1">
+          <input
+            type="radio"
+            id="individual"
+            name="webdesign"
+            checked
+            value="individual"
+          />
+          <label for="individual"> Individual</label>
+
+          <input type="radio" id="template" name="webdesign" value="template" />
+          <label for="template"> Template</label>
+        </div>
+        <br />
+
+        <strong> Web Development:</strong>
+        <br />
+        <br>
+        <div class="label4">
+
+        <input type="checkbox" name="html&css" />
+        <label>HTML & CSS </label>
+
+        <br />
+
+        <input type="checkbox" name="javascript" />
+        <label for="">JavaScript</label>
+        <br />
+
+        <input type="checkbox" name="mongodb" />
+        <label for="">MongoDB</label>
+    </div>
+        <br />
+        <br />
+        <div class="label3">
+        <label for="">Project Start:</label>
+        <input type="date" />
+        <br />
+        <br />
+        <label for=""> Project End:</label>
+
+        <br />
+        <input type="date" />
+        <br />
+        <br>
+        
+          <label for="">Category</label>
+          <select>
+            <option value="">Personal</option>
+            <option value="">2te Option</option>
+            <option value="">3te Option</option>
+          </select>
+        </label>
+    </div>
+      </form>
+    </div>
+    <br />
+    <button>Order our services</button>
+  </body>
+</html>
